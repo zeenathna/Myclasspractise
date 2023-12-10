@@ -1,0 +1,82 @@
+
+/*input phonenumber,boxposition,boxreapeat*/
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  /*background-image:url('searchcon.png');*/
+  background-image:url('https://www.everypixel.com/free/photos/flower/purple?image_id=6461152734852738972');
+  background-repeat:no-repeat;
+}
+blockquote {
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
+}
+
+input {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 50%;
+  background-color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: green;
+}
+
+input[type=text]:focus {
+
+  outline: none;
+}
+
+input[type=password] {
+  width: 75%;
+  background-color: pink;
+}
+input[type=text]{
+background-color: white;
+/*background-image:url('searchcon.png');*/
+background-position:left;
+background-repeat: no-repeat;
+padding-left:50px;
+}
+/*There was gap so it was not working*/
+input[type=phonenumber] {
+  background-color: green;
+}
+
+input[type=email] {
+  background-color: brown;
+}
+
+input[type=submit] {
+  background-color: yellow;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-repeat: repeat-y;
+  background-image:url("img_flwr.gif");  
+}  
+</style>
+</head>
+<body>
+
+<h1>The background-repeat Property</h1>
+
+<p>
+This demo shows how to specify how the background image can be repeated.
+</p>
+
+</body>
+</html>

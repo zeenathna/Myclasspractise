@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Maheenwebpage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+
+/*input phonenumber,boxposition,boxreapeat*/
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  /*background-image:url('searchcon.png');*/
+  background-image:url('www.everypixel.com/free/photos/flower/purple?image_id=6461152734852738972');
+  background-repeat:no-repeat;
+}
+blockquote {
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
+}
+
+input {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 50%;
+  background-color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: green;
+}
+
+input[type=text]:focus {
+
+  outline: none;
+}
+
+input[type=password] {
+  width: 75%;
+  background-color: pink;
+}
+input[type=text]{
+background-color: white;
+/*background-image:url('searchcon.png');*/
+background-position:left;
+background-repeat: no-repeat;
+padding-left:50px;
+}
+/*There was gap so it was not working*/
+input[type=phonenumber] {
+  background-color: green;
+}
+
+input[type=email] {
+  background-color: brown;
+}
+
+input[type=submit] {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+  <blockquote>
+    <q>
+      You may shoot me with your words,<br />
+      You may cut me with your eyes,<br />
+      You may kill me with your hatefulness,<br />
+      But still, like air, I'll rise.
+    </q>
+    <p>&mdash; Maya Angelou</p>
+  </blockquote>
+  
+  </form>
+  <h1> Registration Form</h1>
+  <form>
+    <label>Name</label>
+    <input type="text" placeholder "Name"><br>
+    <label>Username</label>
+    <input type="username" placeholder="username"><br>
+    <label>Password</label>
+    <input type="password" placeholder="password"><br>
+    <!-- <label>Gender</label> -->
+    <input type="radio" id="gender" name="male" value="male">Male
+    <label>Gender</label>
+    <input type="radio" id="gender" name="gender" value="female">Female
+    <label>Gender</label><br>
+    <label> Phone number</label>
+    <input type="phonenumber" id="phonenumber" name="phonenumber"><br>
+
+    <label>Email</label>
+    <input type="email" id="email" name="email"><br>
+    <label>Address</label>
+    <input type="Address" id="address" name="address"><br>
+    <input type="submit" value="submit">
+  </form>
+  <form>
+    <h2>STUDENT REGISTRATION FORM</h2>
+    <label for="fname">First name</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <div>
+      <p>Hello</p>
+    </div>
+    <script src="script.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
